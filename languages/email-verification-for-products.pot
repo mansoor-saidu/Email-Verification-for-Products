@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Verification for Products 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/email-verification-for-products\n"
+"POT-Creation-Date: 2025-07-19 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: ChatGPT manual pot generator\n"
+"X-Domain: email-verification-for-products\n"
+
+msgid "Enter your email to verify your purchase:"
+msgstr ""
+
+msgid "Verifying..."
+msgstr ""
+
+msgid "Already verified!"
+msgstr ""
+
+msgid "Purchase verified! Content unlocked."
+msgstr ""
+
+msgid "Sorry, no matching purchase found."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Donate"
+msgstr ""
+
+msgid "Shortcode copied to clipboard!"
+msgstr ""
+
+msgid "Use this shortcode to protect content on a page or post:"
+msgstr ""
+
+msgid "Product IDs"
+msgstr ""
+
+msgid "Enter product IDs separated by commas (e.g., 123,456)"
+msgstr ""
+
+msgid "Order Recency Limit (days)"
+msgstr ""
+
+msgid "Only accept purchases made within this number of days. Leave 0 for no limit."
+msgstr ""
+
+msgid "Email Prompt Text"
+msgstr ""
+
+msgid "Protected Content (Shortcode)"
+msgstr ""
+
+msgid "You can enter any shortcode or HTML content here."
+msgstr ""
+
+msgid "Email Verification for Products Settings"
+msgstr ""
