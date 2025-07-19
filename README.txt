@@ -73,7 +73,7 @@ First stable version.
 == Credits ==
 
 Developed by [Mansoor Saidu](https://profiles.wordpress.org/mansoor8080)  
-Inspired by community needs for simple guest-checkout content restriction.
+Inspired by my need for simple guest-checkout content restriction without LOGIN.
 
 == License ==
 
