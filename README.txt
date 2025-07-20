@@ -16,7 +16,7 @@ It is a lightweight plugin that lets you restrict content on a WordPress page or
 This is ideal for digital rewards, gated resources, or interactive features like spin-to-win wheels.  
 No user login required — works perfectly with guest checkout!
 
-**🔑 Key Features**
+*🔑 Key Features*
 
 - Restrict content by WooCommerce product ID
 - Supports guest (non-logged-in) customers
@@ -28,7 +28,7 @@ No user login required — works perfectly with guest checkout!
 - Settings and Donate links directly in plugin list
 - Admin panel for easy configuration
 
-**🔧 Requirements**
+*🔧 Requirements*
 - WooCommerce must be installed and active
 
 == Installation ==
@@ -63,7 +63,7 @@ Yes — verified emails are stored in sessionStorage to avoid repeat checks.
 == Changelog ==
 
 = 1.0.0 =
-* Initial release: shortcode-based email verification for WooCommerce guest purchases
+Initial release: shortcode-based email verification for WooCommerce guest purchases
 
 == Upgrade Notice ==
 

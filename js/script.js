@@ -3,14 +3,6 @@ function verifyEmail() {
     const msg = document.getElementById('verify-message');
     msg.innerText = 'Verifying...';
 
-    const cacheKey = 'evg_verified_' + email;
-    if (sessionStorage.getItem(cacheKey) === 'true') {
-        msg.innerText = 'Already verified!';
-        document.getElementById('verify-section').style.display = 'none';
-        document.getElementById('protected-content').style.display = 'block';
-        return;
-    }
-
     fetch(evgData.ajax_url, {
         method: 'POST',
         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
@@ -20,9 +12,9 @@ function verifyEmail() {
     .then(data => {
         if (data.success) {
             msg.innerText = 'Purchase verified! Content unlocked.';
-            sessionStorage.setItem(cacheKey, 'true');
-            document.getElementById('verify-section').style.display = 'none';
-            document.getElementById('protected-content').style.display = 'block';
+            // Set a cookie to persist verification (secure alternative to sessionStorage)
+            document.cookie = "evg_verified=true; path=/; max-age=86400"; // 1-day cookie
+            location.reload(); // Reload to trigger server-side rendering of protected content
         } else {
             msg.innerText = 'Sorry, no matching purchase found.';
         }
