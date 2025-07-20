@@ -10,8 +10,7 @@
  * Text Domain: email-verification-for-products
  * Domain Path: /languages
  * Requires PHP: 7.2
- * Requires at least: 5.4
- * Requires Plugins: WooCommerce
+ * Requires at least: 5.7
  */
 
 if (!defined('ABSPATH')) exit;
