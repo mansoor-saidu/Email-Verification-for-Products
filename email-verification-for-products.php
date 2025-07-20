@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Email Verification for Products
  * Description: Restricts page content unless the user verifies their email has purchased specific WooCommerce product(s). Requires WooCommerce and supports guest checkout.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Mansoor Saidu
  * Author URI: https://profiles.wordpress.org/mansoor8080
  * License: GPL2
@@ -11,6 +11,7 @@
  * Domain Path: /languages
  * Requires PHP: 7.2
  * Requires at least: 5.4
+ * Requires Plugins: WooCommerce
  */
 
 if (!defined('ABSPATH')) exit;
