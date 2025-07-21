@@ -21,6 +21,9 @@ add_action('admin_init', function() {
     register_setting('email_verification_gate_settings', 'evg_email_prompt', [
         'sanitize_callback' => 'sanitize_text_field',
     ]);
+    register_setting('email_verification_gate_settings', 'evg_fallback_message', [
+        'sanitize_callback' => 'wp_kses_post',
+    ]);
 
     register_setting('email_verification_gate_settings', 'evg_protected_content', [
         'sanitize_callback' => 'wp_kses_post',
@@ -53,6 +56,13 @@ function email_verification_gate_settings_page() { ?>
                         <input type="text" name="evg_email_prompt" value="<?php echo esc_attr(get_option('evg_email_prompt', 'Enter your email to verify your purchase:')); ?>" style="width: 100%;" />
                     </td>
                 </tr>
+                <tr valign="top">
+                   <th scope="row">Fallback Message (Unverified Users)</th>
+                   <td>
+                   <textarea name="evg_fallback_message" rows="3" style="width: 100%;"><?php echo esc_textarea(get_option('evg_fallback_message', 'To access this content, please verify your purchase using the email you used at checkout.')); ?></textarea>
+                   <p class="description">Shown to users who are not verified yet. You can use plain text or HTML.</p>
+                </td>
+              </tr>
                 <tr valign="top">
                     <th scope="row">Protected Content (Shortcode)</th>
                     <td>
