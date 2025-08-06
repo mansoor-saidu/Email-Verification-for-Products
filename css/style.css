@@ -29,12 +29,7 @@
 #verify-section button:hover {
     background: #005f8d;
 }
-.evg-fallback {
-    margin-top: 10px;
-    color: #666;
-    font-style: italic;
-    font-size: 14px;
-}
+
 #verify-message {
     text-align: center;
     margin-top: 10px;

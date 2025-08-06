@@ -1,10 +1,10 @@
-=== Email Verification for Products ===
+Email Verification for Products
 Contributors: mansoor8080  
 Tags: woocommerce, guest checkout, content restriction
 Requires at least: 5.4  
 Tested up to: 6.8  
 Requires PHP: 7.2  
-Stable tag: 1.0.0  
+Stable tag: 1.1.1  
 License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -69,6 +69,12 @@ Initial release: shortcode-based email verification for WooCommerce guest purcha
 
 = 1.0.0 =
 First stable version.
+
+== 1.1.1 =
+Added ABSPATH checks
+Updated all functions and settings to use evfp_prefix
+Removed inline JS and used wp_enqueue_script.
+
 
 == Credits ==
 
