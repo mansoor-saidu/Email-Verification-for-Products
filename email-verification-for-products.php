@@ -10,7 +10,7 @@
  * Text Domain: email-verification-for-products
  * Domain Path: /languages
  * Requires PHP: 8.0
- * Requires at least: 7.2
+ * Requires at least: 5.4
  */
 
 if (!defined('ABSPATH')) exit;
